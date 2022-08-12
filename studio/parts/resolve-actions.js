@@ -45,7 +45,7 @@ const PreviewAction = props => {
         window.location.hostname === 'localhost' ? localURL : remoteURL
 
       window.open(
-        `${frontendURL}/api/preview?token=HULL&type=${props.type}&slug=${slug ||
+        `${frontendURL}/api/preview?token=Sunshine&type=${props.type}&slug=${slug ||
           ''}`
       )
     }

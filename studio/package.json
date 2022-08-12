@@ -1,9 +1,9 @@
 {
-  "name": "hull",
+  "name": "rjct",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
-  "author": "Nick DiMatteo <hello@nickdimatteo.com>",
+  "author": "Ryan Lisse <info@ryanlisse.com",
   "scripts": {
     "build": "sanity build",
     "dev": "sanity start",
