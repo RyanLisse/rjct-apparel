@@ -87,17 +87,17 @@ const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
                     aria-label="Go Home"
                     onClick={() => window.scrollTo(0, 0)}
                   >
-                    <Icon name="Logo" id="header" viewBox="0 0 215 150" />
+                    <Icon name="Logo" id="header" viewBox="0 0 250 100" />
                   </button>
                 ) : (
                   <Link href="/" scroll={false}>
                     <a className="logo--link" aria-label="Go Home">
-                      <Icon name="Logo" id="header" viewBox="0 0 215 150" />
+                        <Icon name="Logo" id="header" viewBox="0 0 250 100" />
                     </a>
                   </Link>
                 )}
-              </div>
 
+              </div>
               <nav className="main-navigation" role="navigation">
                 {/* Mobile Header Menu */}
                 <div id="mobile-nav" className="main-navigation--mobile">
