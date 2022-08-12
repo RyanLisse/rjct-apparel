@@ -19,6 +19,7 @@
     "note-field",
     "media"
   ],
+
   "env": {
     "development": {
       "plugins": ["@sanity/vision"]
