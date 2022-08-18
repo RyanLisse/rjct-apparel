@@ -10,7 +10,7 @@ const ProductActions = ({ activeVariant, klaviyoAccountID }) => {
   // set default quantity
   const [quantity, setQuantity] = useState(1)
   
-  
+
   return (
     <div className="product--actions">
       {activeVariant?.inStock ? (
